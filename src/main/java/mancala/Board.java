@@ -121,8 +121,7 @@ public class Board {
                 if (currentPit == 6){
                     boardStores.get(0).addStones(1);
                     enteredStore = false;
-                }
-                else if (currentPit == 0){
+                } else if (currentPit == 0){
                     boardStores.get(1).addStones(1);
                     enteredStore = false;
                 }
