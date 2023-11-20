@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mancala.PitTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-11-20T04:15:32" hostname="CIS2430" time="0.005">
+  <properties/>
+  <testcase name="testGetStoneCount()" classname="mancala.PitTest" time="0.001"/>
+  <testcase name="testAddStone()" classname="mancala.PitTest" time="0.001"/>
+  <testcase name="testRemoveStones()" classname="mancala.PitTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
