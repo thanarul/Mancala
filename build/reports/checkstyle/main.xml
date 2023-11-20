@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="/course/GP3/src/main/java/ui/TextUI.java">
+</file>
+<file name="/course/GP3/src/main/java/mancala/NoSuchPlayerException.java">
+</file>
+<file name="/course/GP3/src/main/java/mancala/MancalaGame.java">
+</file>
+<file name="/course/GP3/src/main/java/mancala/PitNotFoundException.java">
+</file>
+<file name="/course/GP3/src/main/java/mancala/Player.java">
+</file>
+<file name="/course/GP3/src/main/java/mancala/GameNotOverException.java">
+</file>
+<file name="/course/GP3/src/main/java/mancala/Board.java">
+<error line="124" column="17" severity="error" message="&apos;}&apos; at column 17 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+</file>
+<file name="/course/GP3/src/main/java/mancala/Pit.java">
+</file>
+<file name="/course/GP3/src/main/java/mancala/Store.java">
+</file>
+<file name="/course/GP3/src/main/java/mancala/InvalidMoveException.java">
+</file>
+</checkstyle>
