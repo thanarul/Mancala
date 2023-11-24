@@ -1,0 +1,141 @@
+
+
+********
+ Gradle Layout Check 
+********
+non java files in src/ folder 
+
+********
+ Extra files found in repo 
+********
+no extra files found
+
+********
+ Missing mutators/accessors 
+********
+
+
+
+********
+ Non private member variables 
+********
+
+
+********
+ Missing Readme Headings 
+********
+
+
+********
+ OO Effort for AI Solution 
+********
+0.0%
+
+********
+ Extra Files found in Docs folder 
+********
+
+
+********
+ Build Check on repo as submitted 
+********
+
+31 tests completed, 3 failed
+[ant:checkstyle] [ERROR] /Users/judi/Desktop/repositories/autograder-GP2/temp/tarulana/src/test/java/mancala/MancalaGameTest.java:18:15: Unused import - org.junit.jupiter.api.Assertions.assertNull. [UnusedImports]
+[ant:checkstyle] [ERROR] /Users/judi/Desktop/repositories/autograder-GP2/temp/tarulana/src/test/java/mancala/MancalaGameTestTwo.java:6:8: Unused import - java.util.ArrayList. [UnusedImports]
+[ant:checkstyle] [ERROR] /Users/judi/Desktop/repositories/autograder-GP2/temp/tarulana/src/test/java/mancala/MancalaGameTestTwo.java:7:47: Using the '.*' form of import should be avoided - org.junit.jupiter.api.Assertions.*. [AvoidStarImport]
+[ant:checkstyle] [ERROR] /Users/judi/Desktop/repositories/autograder-GP2/temp/tarulana/src/test/java/mancala/BoardTest.java:6:47: Using the '.*' form of import should be avoided - org.junit.jupiter.api.Assertions.*. [AvoidStarImport]
+[ant:checkstyle] [ERROR] /Users/judi/Desktop/repositories/autograder-GP2/temp/tarulana/src/test/java/mancala/BoardTest.java:63:75: ',' is preceded with whitespace. [NoWhitespaceBefore]
+[ant:checkstyle] [ERROR] /Users/judi/Desktop/repositories/autograder-GP2/temp/tarulana/src/test/java/mancala/BoardTest.java:70:16: 'player1' hides a field. [HiddenField]
+[ant:checkstyle] [ERROR] /Users/judi/Desktop/repositories/autograder-GP2/temp/tarulana/src/test/java/mancala/BoardTest.java:71:16: 'player2' hides a field. [HiddenField]
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///Users/judi/Desktop/repositories/autograder-GP2/temp/tarulana/build/reports/tests/test/index.html
+
+* Try:
+> Run with --scan to get full insights.
+
+BUILD FAILED in 2s
+
+> Task :clean UP-TO-DATE
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :jar
+> Task :assemble
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test FAILED
+
+BoardTest > testGetNumStones() FAILED
+    org.opentest4j.AssertionFailedError at BoardTest.java:102
+
+BoardTest > testDistributeStones() FAILED
+    org.opentest4j.AssertionFailedError at BoardTest.java:92
+
+BoardTest > testMoveStonesCaptureStones() FAILED
+    mancala.InvalidMoveException at BoardTest.java:76
+
+> Task :checkstyleTest
+Checkstyle rule violations were found. See the report at: file:///Users/judi/Desktop/repositories/autograder-GP2/temp/tarulana/build/reports/checkstyle/test.html
+Checkstyle files with violations: 3
+Checkstyle violations by severity: [error:7]
+
+
+> Task :checkstyleMain
+7 actionable tasks: 6 executed, 1 up-to-date
+
+
+********
+ How well you tested Board Class with BoardTest 
+********
+Error running JUnit test, no coverage metrics available
+
+********
+ Checkstyle Errors and Warnings 
+********
+Starting audit...
+Audit done.
+
+
+********
+ Junit Test Results 
+********
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test FAILED
+
+BoardTest > testMoveStonesCaptureStones() FAILED
+    org.opentest4j.AssertionFailedError at BoardTest.java:97
+
+MancalaGameTest > testGetStoreCountInvalidPlayer() FAILED
+    org.opentest4j.AssertionFailedError at MancalaGameTest.java:92
+
+MancalaGameTest > testGetNumStonesValidPit() FAILED
+    org.opentest4j.AssertionFailedError at MancalaGameTest.java:57
+3 actionable tasks: 3 executed
+
+Failed to map supported failure 'org.opentest4j.AssertionFailedError: Expected mancala.NoSuchPlayerException to be thrown, but nothing was thrown.' with mapper 'org.gradle.api.internal.tasks.testing.failure.mappers.OpenTestAssertionFailedMapper@345e5a17': Cannot invoke "Object.getClass()" because "obj" is null
+
+24 tests completed, 3 failed
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///Users/judi/Desktop/repositories/autograder-GP2/temp/tarulana/build/reports/tests/test/index.html
+
+* Try:
+> Run with --scan to get full insights.
+
+BUILD FAILED in 1s
